@@ -1,74 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | News homepage</title>
-</head>
-<body>
-<section>
-<div class="navbar_">
-  <nav class="navbar">
-    <img class="logo" src="./assets/images/logo.svg" alt="logo">
-  <ul class="navbar-nav">
-   <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-   <li class="nav-item"><a class="nav-link" href="#">New</a></li>
-   <li class="nav-item"><a class="nav-link" href="#">Popular</a></li>
-   <li class="nav-item"><a class="nav-link" href="#">Trending</a></li>
-   <li class="nav-item"><a class="nav-link" href="#">Categories</a></li>
-  </ul>
-</nav>
-</div>
-  
-  <div class="grid-main-div">
-    <div class="img1">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | News homepage</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="navbar_">
+        <nav class="navbar">
+          <img class="logo" src="./assets/images/logo.svg" alt="logo" />
+          <div class="transparent-layer"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">New</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Popular</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Trending</a></li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Categories</a>
+            </li>
+          </ul>
+          <div class="nav-toggle-btns">
+            <button name="open-menu"><i class="fa-solid fa-bars"></i></button>
+            <button name="close-menu"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+        </nav>
+      </div>
 
+      <div class="grid-main-div">
+        <div class="img1"></div>
+        <div class="main-heading">
+          <h1>The Bright Future of Web 3.0?</h1>
+        </div>
+        <div class="main-text">
+          <p>
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+          </p>
+
+          <button>Read more</button>
+        </div>
+        <div class="breaking-news">
+          <div class="breaking-news-head">
+            <h1>New</h1>
+          </div>
+          <div class="news__">
+            <div class="breaking-news__">
+              <h2>Hydrogen VS Electric Cars</h2>
+              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+            <div class="breaking-news__">
+              <h2>The Downsides of AI Artistry</h2>
+              <p>
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+            </div>
+            <div class="breaking-news__">
+              <h2>Is VC Funding Drying Up?</h2>
+              <p>
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="Popular-news">
+        <div class="popular_news_n">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="">
+          <div>
+            <h2> 01 </h2> <p> <span> Reviving Retro PCs </span><br> What happens when old PCs are given modern
+              upgrades?</p>
+          </div>
+        </div>
+        <div class="popular_news_n">
+          <img src="./assets/images/image-top-laptops.jpg" alt="">
+          <div>
+            <h2> 02 </h2><p> <span> Top 10 Laptops of 2022</span><br> Our best picks for various needs and
+              budgets.</p>
+          </div>
+        </div>
+        <div class="popular_news_n">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="">
+          <div>
+            <h2> 03 </h2><p> <span> The Growth of Gaming </span> <br> How the pandemic has sparked fresh
+              opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
     </div>
-      <div class="main-heading">
-        <h1>The Bright Future of Web 3.0?</h1>
-      </div>
-      <div class="main-text">
-        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-        But is it really fulfilling its promise?</p>
-  
-        <button>Read more</button>  
-      </div>
-      <div class="breaking-news">
-          <h1>New</h1> 
-  
-        <h2>Hydrogen VS Electric Cars</h2>
-        Will hydrogen-fueled cars ever catch up to EVs?
-        
-        <h2>The Downsides of AI Artistry</h2>
-        What are the possible adverse effects of on-demand AI image generation?
-        
-        <h2>Is VC Funding Drying Up?</h2>
-        Private funding by VC firms is down 50% YOY. We take a look at what that means.
+  </body>
 
-      </div>
-  </div>
-  
-    <div>
-        01
-        Reviving Retro PCs
-        What happens when old PCs are given modern upgrades?
-        
-        02
-        Top 10 Laptops of 2022
-        Our best picks for various needs and budgets.
-        
-        03
-        The Growth of Gaming
-        How the pandemic has sparked fresh opportunities.
-    </div>
-</section>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <script src="https://kit.fontawesome.com/cbb92bd480.js" crossorigin="anonymous"></script>
 </html>
