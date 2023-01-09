@@ -32,6 +32,8 @@ section {
 .navbar-nav li a:hover {
   color: hsl(5, 85%, 63%);
 }
+
+/*-------------------------------------- Buttons -------------------------------------- */
 .nav-toggle-btns {
   display: none;
 }
@@ -221,6 +223,8 @@ section {
     display: block;
   }
 
+  
+  /*-------------------------------------- Buttons -------------------------------------- */
   .nav-toggle-btns {
     display: block;
     z-index: 9999;
